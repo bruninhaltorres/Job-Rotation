@@ -1,6 +1,6 @@
 import json
 
-with open('dados.json', 'r') as arquivo:
+with open('dadosDiarios.json', 'r') as arquivo:
     dados = json.load(arquivo)
 
     # Tratando dias em que o faturamento é zero (finais de semana e feriados)
